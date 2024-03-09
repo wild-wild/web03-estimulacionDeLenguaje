@@ -2,14 +2,17 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: #F11AAF;
 }
-html, body 
-{ 
- height: 100%;
- overflow-x: hidden;
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
+
 .bg-barra {
   background-color: #F11AAF;
 }
+
 .call_to-btn {
   display: inline-block;
   padding: 15px 15px;
@@ -89,21 +92,6 @@ a:focus {
   z-index: -1;
 }
 
-.sub_page .top_container::before {
-  background-color: #fdd31d;
-  background-image: none;
-}
-
-/* .top_container::after {
-  content: "";
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  bottom: 20%;
-  left: 6%;
-  background-color: #fdd31d;
-} */
-
 
 .sub_page .top_container::after {
   display: none;
@@ -116,16 +104,7 @@ a:focus {
 }
 
 
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border: none;
-}
+
 
 .navbar-brand {
   display: flex;
@@ -147,11 +126,6 @@ a:focus {
   outline: none;
 }
 
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.png);
-  background-size: 40px;
-}
-
 /*end header section*/
 
 /* hero section */
@@ -167,8 +141,6 @@ a:focus {
 
 .hero_img-container {
   width: 55%;
-  /* margin-right: -2%; */
-  /* margin-top: -5%; */
 }
 
 .hero_img-container img {
@@ -222,15 +194,11 @@ a:focus {
 
 /* end common style */
 
-/* about section */
-.about_section {
-  /* text-align: center; */
-  
-}
 .about_section2 {
   text-align: center;
   background-color: #6ebca8;
 }
+
 .about_section a {
   background-color: #6ebca8;
   color: #fefeff;
@@ -541,38 +509,71 @@ a:focus {
 .img_libro {
   width: 100%;
 }
+
 .text_contenido {
   font-size: 22.5px;
 }
+
 .img_pack {
   width: 70%;
   margin: 5px;
 }
+
 .secction_preguntasFrecuentes {
   background-color: #6ebca8;
 }
+
 .section_testimonios {
-  background-color: #6ebca8;
+  background-color: #ffffff;
 }
+
 .img_compraSegura {
   width: 50%;
 }
+
 .section_compraSegura {
   background-color: #000000;
 }
-.img_principal{
+
+.img_principal {
   filter: drop-shadow(0px 0px 10px rgba(87, 87, 87, 0.75)) !important;
 
 }
+
 .video-youtube {
   width: 50%;
   height: 360px;
   /* redondeado */
   border-radius: 15px;
 }
+
 .text-t1 {
   font-size: 50px;
   color: #ffffff;
+}
+
+.text-borde {
+  color: #ffffff;
+  text-shadow: 3px 0px 0px black,
+    0px 3px 0px black,
+    -3px 0px 0px black,
+    0px -3px 0px black;
+    /* text center */
+  text-align: center;
+
+}
+.carusel-contenido{
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border radios */
+}
+.bg_primario{
+  background-color: #fdd31d;
 }
 
 /* respons mobile */
@@ -580,6 +581,7 @@ a:focus {
   .text-t1 {
     font-size: 35px;
   }
+
   .video-youtube {
     width: 95%;
     height: 210px;
