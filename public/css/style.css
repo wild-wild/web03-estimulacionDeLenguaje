@@ -545,6 +545,10 @@ a:focus {
   height: 360px;
   /* redondeado */
   border-radius: 15px;
+  /* sombra */
+  box-shadow: 0px 0px 10px rgba(87, 87, 87, 0.75);
+  /* PUNTOS SEGMENTADOS*/
+  border: 5px dashed #000000;
 }
 
 .text-t1 {
