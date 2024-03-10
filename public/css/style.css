@@ -595,11 +595,11 @@ a:focus {
     height: 210px;
   }
   .btn-prev{
-    margin: 0px 0px 0px -100px;
+    margin: 0px 0px 0px -90px;
     border-radius: 10px 0px 0px 10px;
   }
   .btn-next{
-    margin: 0px -100px 0px 0px;
+    margin: 0px -90px 0px 0px;
     border-radius: 0 10px 10px 0;
   }
 }
