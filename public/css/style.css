@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #F11AAF;
+  background-color: #FFC80E;
 }
 
 html,
@@ -18,12 +18,18 @@ body {
 }
 
 .contenido {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 .video-youtube {
-  width: 70%;
-  height: 360px;
+  width:60%;
+  height: 450px;
   /* redondeado */
   border-radius: 15px;
   /* sombra */
@@ -86,16 +92,16 @@ a:focus {
   box-shadow: none;
 }
 
-.top_container {
+/* .top_container {
   position: relative;
-}
+} */
 
 .top_container::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 66%;
-  background: url(../images/hero-bg.png);
+  /* background: url(../images/hero-bg.png); */
   background-size: 100% 100%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -127,7 +133,30 @@ a:focus {
 }
 
 .text_contenido {
-  font-size: 22.5px;
+  font-size: 18px;
+}
+.text_titulo_contenido {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  /* sombra o borde blanco*/
+  text-shadow: 3px 0px 0px white,
+    0px 3px 0px white,
+    -3px 0px 0px white,
+    0px -3px 0px white;
+  text-align: center;
+}
+
+
+.img_texto {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .secction_preguntasFrecuentes {
@@ -185,12 +214,12 @@ a:focus {
     font-size: 25px;
   }
   .contenido {
-    width: 95%;
+    width: 90%;
   }
 
   .video-youtube {
     width: 95%;
-    height: 210px;
+    height: 220px;
 
   }
   .btn-prev{
@@ -201,4 +230,11 @@ a:focus {
     margin: 0px -90px 0px 0px;
     border-radius: 0 10px 10px 0;
   }
+  .img_texto {
+    width: 98%;
+    height: 100%;
+ 
+    
+  }
+  
 }
