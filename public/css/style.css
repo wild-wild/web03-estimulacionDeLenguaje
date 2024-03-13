@@ -233,8 +233,10 @@ a:focus {
   .img_texto {
     width: 98%;
     height: 100%;
- 
-    
+  }
+  .text_contenido {
+    font-size: 15px;
+    margin: 0 auto;
   }
   
 }
