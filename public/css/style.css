@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #FFC80E;
 }
 
@@ -194,9 +194,12 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
-
+.precio-tachado {
+  text-decoration: line-through;
+  color: red; /* Opcional: cambia el color del texto tachado */
+}
 .bg_primario {
-  background-color: #fdd31d;
+  background-color: #3ca166;
 }
 
 .btn-prev {
