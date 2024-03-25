@@ -45,7 +45,7 @@ body {
   padding: 15px 15px;
   border-radius: 10px;
   font-size: 25px;
-  background-color: #929292;
+  background-color: #00ff0d;
   color: #262627;
   font-weight: 600;
   transition: all 0.3s ease 0s;
@@ -199,10 +199,9 @@ a:focus {
   text-decoration: line-through;
   color: red; /* Opcional: cambia el color del texto tachado */
 }
-.bg_primario {
-  background-color: #3ca166;
+.bg_botonDeCompra {
+  background-color: #F01AAE;
 }
-
 .btn-prev {
   margin: 0px 0px 0px -70px;
   border-radius: 10px 0px 0px 10px;
